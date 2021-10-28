@@ -1,0 +1,26 @@
+soundSpeedNetcdf: "C:/NRL/Git/gitlab/julia-fom/TransmissionLoss/julia/src/test/resources/HYCOM.talisman_saber.006.nc"
+
+bathyGeotiff: "C:/NRL/Git/gitlab/julia-fom/TransmissionLoss/julia/src/test/resources/bathy.tiff"
+
+outputDirectory: "C:/NRL/Git/gitlab/julia-fom/TransmissionLoss/julia/output"
+
+radials:
+  - latitude: -34.00115
+    longitude:  109.03333333333333
+    bearing: 0.0
+    distance: 55000.0
+    numberOfPoints: 40
+    filename: "radial1"
+  - latitude: -33.121128000000006
+    longitude: 164.22919333333334
+    bearing: 45.0
+    distance: 55000.0
+    numberOfPoints: 40
+    filename: "radial2"
+  - latitude: 12.0
+    longitude:  164.94913933333333
+    bearing: 270.0
+    distance: 55000.0
+    numberOfPoints: 40
+    filename: "radial3"
+
